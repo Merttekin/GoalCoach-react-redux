@@ -11,3 +11,4 @@ var firebaseConfig = {
 };
 
 export const firebaseApp = firebase.initializeApp(firebaseConfig);
+export const goalRef = firebase.database().ref('goals');
